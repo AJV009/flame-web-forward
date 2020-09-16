@@ -5,4 +5,6 @@
 - [Cookie based remember-me functionality](notes/cookie-based-remember.md)
 - [Design tips from "Design for Non-Designers"](notes/Designcuts.md)
 - [Codecademy: Learn CSS Cheatsheets](notes/codecademy-learn-css.md)
-- [Tribute Page](pages/tribute)
+- [Tribute Page](pages/tribute/)
+- [Theming a form](pages/form_theme)
+- []

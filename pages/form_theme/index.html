@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="theme.css" />
+    <title>Form Theme</title>
+  </head>
+  <body>
+    <h1 id="title">Form</h1>
+    <p id="description">This is nothing but a form!</p>
+    <form id="survey-form">
+      <div class="form-element">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name" />
+      </div>
+      <div class="form-element">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email" />
+      </div>
+      <div class="form-element">
+        <label for="num">Number</label>
+        <input
+          type="number"
+          max="10000"
+          min="0"
+          name="num"
+          id="number"
+          placeholder="Enter Number"
+        />
+      </div>
+      <div class="form-element">
+        <label for="role">Current role</label>
+        <select name="role" id="dropdown">
+          <option value="1">Developer</option>
+          <option value="2">Student</option>
+          <option value="3">Other</option>
+        </select>
+      </div>
+      <div class="form-element">
+        <label for="radio"> Will you recommend us?</label>
+        <input type="radio" name="radio" id="yes" value="1" />Yes
+        <input type="radio" name="radio" id="no" value="2" /> No
+        <input type="radio" name="radio" id="maybe" value="3" /> maybe
+      </div>
+      <div class="form-element">
+        What do you want to improve through your code and knowledge
+        contribution?
+        <label for="chk1">Front end</label>
+        <input type="checkbox" name="chk1" value="fe" />
+        <label for="chk2">Back end</label>
+        <input type="checkbox" name="chk2" value="be" />
+        <label for="chk3">Data Visualization</label>
+        <input type="checkbox" name="chk3" value="dv" />
+        <label for="chk4">Open Source</label>
+        <input type="checkbox" name="chk4" value="os" />
+        <label for="chk5">Competetive Coding</label>
+        <input type="checkbox" name="chk5" value="cc" />
+      </div>
+      <div class="form-element">
+        <label for="comments">Any comments?</label>
+        <textarea id="txt" name="comment"></textarea>
+      </div>
+      <div class="form-element">
+        <input type="submit" id="submit" value="submit" />
+      </div>
+    </form>
+  </body>
+</html>

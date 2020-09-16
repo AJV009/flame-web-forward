@@ -1,0 +1,45 @@
+#main {
+  background-color: #4a6fa5;
+  color: #ffffff;
+  font-family: "Courier New", Courier;
+  padding: 20px 50px 50px 50px;
+  height: 100%;
+}
+#title {
+  text-shadow: 5px 5px rgba(22, 22, 22, 0.5);
+  text-align: center;
+}
+#img-div {
+  display: block;
+  margin: auto;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: left;
+  color: #ffffff;
+  background-color: #4f6d7a;
+  padding: 20px;
+  max-width: 200px;
+  box-shadow: 3px 3px 3px #dbe9ee;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#tribute-info {
+  display: block;
+  margin: auto;
+}
+#tribute-link:link {
+  text-decoration: none;
+  color: black;
+}
+#tribute-link:visited {
+  text-decoration: none;
+  color: black;
+}
+#tribute-link:hover {
+  text-decoration: underline;
+  color: blue;
+}
