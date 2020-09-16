@@ -6,5 +6,6 @@
 - [Design tips from "Design for Non-Designers"](notes/Designcuts.md)
 - [Codecademy: Learn CSS Cheatsheets](notes/codecademy-learn-css.md)
 - [Tribute Page](pages/tribute/)
-- [Theming a form](pages/form_theme)
-- []
+- [Theming a form](pages/form_theme/)
+- [Technical Documentation](pages/technical_doc/)
+- [SCSS + Font Notes](notes/scss.md)
