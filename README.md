@@ -10,4 +10,3 @@
 - [Technical Documentation](pages/technical_doc/)
 - [SCSS + Font Notes](notes/scss.md)
 - [Automatically create vhost for specified site folder](scripts/feather.sh)
-- 
