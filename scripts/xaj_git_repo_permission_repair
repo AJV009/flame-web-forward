@@ -2,7 +2,7 @@
 
 helpFunction() {
     echo ""
-    echo "Usage: $0 -d repo_path"
+    echo "Usage: xaj_git_repo_permission_repair -d repo_path"
     echo "Repairs git repo to default permissions, that is 755 for folders and 644 for files"
     echo -e "\t-d Git repo path"
     exit 1 # Exit script after printing help
