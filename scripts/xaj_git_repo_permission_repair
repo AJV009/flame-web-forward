@@ -1,0 +1,32 @@
+#!/bin/bash
+
+helpFunction() {
+    echo ""
+    echo "Usage: $0 -d repo_path"
+    echo "Repairs git repo to default permissions, that is 755 for folders and 644 for files"
+    echo -e "\t-d Git repo path"
+    exit 1 # Exit script after printing help
+}
+
+gitRepair() {
+    find "${gitpath}" -type d -exec chmod 755 {}
+    find "${gitpath}" -type f -exec chmod 644 {}
+}
+
+while getopts "d:" opt; do
+    case "$opt" in
+    d)
+        gitpath="$OPTARG"
+        ;;
+    ?)
+        helpFunction
+        ;; # Print helpFunction in case parameter is non-existent
+    esac
+done
+
+if [ -z "$site_url" ]; then
+    echo "parameters are empty"
+    helpFunction
+else
+    gitRepair
+fi
