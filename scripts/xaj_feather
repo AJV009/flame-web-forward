@@ -6,6 +6,7 @@ helpFunction() {
    echo "Creates vhost for apache2 server by creating .conf file in sites-available and adding site url to /etc/hosts with ip as 127.0.0.1"
    echo -e "\t-u Site url"
    echo -e "\t-d Site root directory"
+   echo "Example: xaj_feather -u site.local -d /var/www/site.local"
    exit 1 # Exit script after printing help
 }
 

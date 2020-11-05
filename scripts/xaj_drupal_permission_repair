@@ -1,0 +1,33 @@
+#!/bin/bash
+
+helpFunction() {
+   echo ""
+   echo "Usage: xaj_drupal_permission_repair -d site_root"
+   echo "Repairs drupal site permisssion error."
+   echo -e "\t-d Site root directory"
+   echo "Example: xaj_drupal_permission_repair -d /var/www/site.local"
+   exit 1 # Exit script after printing help
+}
+
+changePer() {
+   chown -R www-data:$USER $site_dir
+} 
+
+while getopts "u:" opt; do
+   case "$opt" in
+   d)
+      site_dir="$OPTARG"
+      ;;
+   ?)
+      helpFunction
+      ;; # Print helpFunction in case parameter is non-existent
+   esac
+done
+
+if [ -z "$site_dir" ]; then
+   echo "Some or all of the parameters are empty"
+   helpFunction
+else
+   changePer
+fi
+

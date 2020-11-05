@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "List of site configurations in /etc/apache2/sites-available/ -->"
+echo 
+ls -a /etc/apache2/sites-available/
+echo 
+echo "List of domain names configured in /etc/hosts -->"
+echo 
+cat /etc/hosts
+echo 
+echo "List of sites in /var/www/ -->"
+echo 
+ls -a /var/www
+echo 

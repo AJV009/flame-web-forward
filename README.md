@@ -9,4 +9,10 @@
 - [Theming a form](pages/form_theme/)
 - [Technical Documentation](pages/technical_doc/)
 - [SCSS + Font Notes](notes/scss.md)
-- [Automatically create vhost for specified site folder](scripts/feather.sh)
+- [(sh) Automatically create vhost for specified site folder](/scripts/xaj_feather)
+- [(sh) Repair Drupal Permissions](/scripts/xaj_drupal_permission_repair)
+- [(sh) Repair git repo permissions](/scripts/xaj_git_repo_permission_repair)
+- [(sh) List/Display sites data for apache web server](/scripts/xaj_sites_data)
+
+
+**NOTE:** All scripts where written in Ubuntu 20.04 LTS.
