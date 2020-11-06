@@ -10,10 +10,11 @@ helpFunction() {
 }
 
 changePer() {
-   chown -R www-data:$USER $site_dir
+   chown -R www-data:user $site_dir
+   chown -R user:user ${site_dir}composer.json
 } 
 
-while getopts "u:" opt; do
+while getopts "d:" opt; do
    case "$opt" in
    d)
       site_dir="$OPTARG"
